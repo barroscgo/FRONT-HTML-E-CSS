@@ -1,0 +1,15 @@
+*{
+    padding: 5;
+    border: 2;
+    margin: 2;
+    box-sizing: border-box;
+}
+body{
+    background-color: darkgray;;
+    color: black;
+    background-size: auto;
+    font-size: 18px
+    
+    
+}
+
