@@ -1,0 +1,42 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    position: relative;
+    width: 100%;
+    display: flow-root;
+}
+
+.navbar {
+    display: flex;
+    justify-content: normal;
+    padding: 20px 0;
+ 
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+}
+.container {
+    display: flex;
+    flex-direction: column; /* Organiza o conteúdo na vertical */
+    align-items: center; /* Centraliza o conteúdo na horizontal */
+    padding: 40px 20px;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    background-color:#333;
+    color: #fff;
+}
